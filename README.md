@@ -1,42 +1,46 @@
-# 🎬 MOVIE SERVICE API
+# MOVIE SERVICE API
 
-## 🔹 PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
 **MOVIE SERVICE API** is a RESTful web service built using **Spring Boot**.  
 It provides endpoints to manage a collection of movies, including operations such as:
 
-- **Add a new movie with functionality of uploading files**
-- **Get all movies (paginated)**
-- **Get all movies (sorted)**
-- **Get a movie by ID**
-- **Update a movie**
-- **Delete a movie**
+- Add a new movie with functionality of uploading files
+- Get all movies (paginated)
+- Get all movies (sorted)
+- Get a movie by ID
+- Update a movie
+- Delete a movie
 
 The API also supports file upload functionality using `MultipartFile`, and serves stored poster images via HTTP.
 
-## 🔹 TECH STACK & REQUIREMENTS
+---
+
+## TECH STACK & REQUIREMENTS
 
 ### BACKEND
-- **Java 21**
-- **Spring Boot 3**
-- **Spring Data JPA**
-- **Hibernate**
-- **Jakarta Validation**
-- **MySQL Database**
+- Java 21
+- Spring Boot 3
+- Spring Data JPA
+- Hibernate
+- Jakarta Validation
+- MySQL Database
 
 ### BUILD TOOL
-- **Maven**
+- Maven
 
 ### IDE
-- Developed using **IntelliJ IDEA**
+- IntelliJ IDEA
 
 ### OTHER TOOLS
-- **Postman** for testing the API
-- **Git** for version control
+- Postman (for API testing)
+- Git (for version control)
 
-## 🔹 MOVIE CONTROLLER ENDPOINTS
+---
 
-All endpoints are prefixed with: **`/api/v1/movie`**
+## MOVIE CONTROLLER ENDPOINTS
+
+All endpoints are prefixed with: `/api/v1/movie`
 
 ### ADD A MOVIE
 
@@ -108,4 +112,3 @@ All endpoints are prefixed with: **`/api/v1/movie`**
 - **Returns:** `200 OK` with a confirmation message
 
 ---
-
